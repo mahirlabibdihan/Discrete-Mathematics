@@ -1,0 +1,5 @@
+Constradiction is a statement that is always false .
+A single statement can't be contradiction . It's always compound .
+It's the negation of tautology .
+
+p and ~p

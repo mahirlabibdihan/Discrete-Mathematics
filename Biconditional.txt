@@ -1,0 +1,13 @@
+When converse of a true implication is also true i.e. when both p -> q and  q -> p are true , then p and q are logically equivalent . This is called biconditional  statement .
+p <-> q
+(p -> q) and (q -> p)
+(p -> q) and (~p -> ~q) 
+
+A biconditional statement is defined to be true whenever both parts have the same truth value. 
+
+Truth Table :
+p	q	p <-> q
+T	T	   T
+T	F	   F
+F	T	   F
+F	F	   T

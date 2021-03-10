@@ -1,0 +1,11 @@
+Implication: p -> q
+Converse: q -> p
+
+Converse is not equivalent to the implication
+
+Truth Table :
+p	q	~p	~q	~p -> ~q
+T	T	 F	 F      T
+T	F	 F	 T	    T
+F	T	 T	 F	    F
+F	F	 T	 T	    T

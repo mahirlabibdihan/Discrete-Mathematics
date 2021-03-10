@@ -1,0 +1,4 @@
+A statement that is always true .
+A single statement can't be tautology . It's always compound .
+
+p or ~p

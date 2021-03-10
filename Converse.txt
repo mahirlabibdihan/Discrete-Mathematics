@@ -1,0 +1,11 @@
+Implication: p -> q
+Inverse: ~p -> ~q
+
+Contrapositive is not equivalent to the implication
+
+Truth Table :
+p	q	q -> p
+T	T	   T
+T	F	   T
+F	T	   F
+F	F	   T

@@ -1,0 +1,11 @@
+Implication: p -> q
+Contrapositive : ~q -> ~p
+
+Contrapositive is logically equivalent to the implication
+
+Truth Table :
+p	q	~q	~p	~q -> ~p
+T	T	 F	 F      T
+T	F	 T	 F	    F
+F	T	 F	 T	    T
+F	F	 T	 T	    T
