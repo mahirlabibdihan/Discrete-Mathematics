@@ -11,3 +11,11 @@ T	T	   T
 T	F	   F
 F	T	   F
 F	F	   T
+
+Biconditional : 
+p -> q
+p only if q .
+q -> p
+p if q .
+p <-> q
+p if and only if q . (IFF)

@@ -1,0 +1,6 @@
+Universal Quantifier :
+∀x -> for All x
+
+Existential Quantifier :
+Ǝy -> There exists one y
+

@@ -13,6 +13,18 @@ T	F	   F
 F	T	   T
 F	F	   T
 
+if p the q .
+
+q if p .
+p is a sufficient condition for q .
+As we can see that at every true p->q , q is true where p is also true .
+
+
+p only if q .
+q is a neccessary condition for p .
+As we can see that at every true p->q , p is only true , where p is also true .
+
+
 if(Hypothesis)
 {
 	if(Conclusion)

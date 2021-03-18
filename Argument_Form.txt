@@ -1,0 +1,19 @@
+if(All assumptions true?)
+{
+	if(Conclusion true?)
+	{
+		Valid
+	}
+	else
+	{
+		Invalid
+	}
+}
+else
+{
+	Valid
+}
+
+Valid Argument forms :
+1. Modus Ponens (Method of affirming)
+2. Modus Tollens (Method of denying)
