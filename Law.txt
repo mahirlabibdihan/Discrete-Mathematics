@@ -1,0 +1,11 @@
+1. Commutative law : 		P Λ Q = Q Λ P								P V Q = Q V P	
+2. Associative law : 		( P Λ Q ) Λ R = P Λ ( Q Λ R ) 				( P V Q ) V R = P V ( Q V R )	
+3. Distributive Law : 		P Λ ( R V Q ) = ( P Λ R ) V ( P Λ Q )		P V ( R Λ Q ) = ( P V R ) Λ ( P V Q )
+4. Absorption Law :			P Λ ( P V Q ) = P							P V ( P Λ Q ) = P
+5. Identity Law : 			P Λ t = P									P V c = P
+6. Universal Bound Law :	P V t = t									P Λ c = c
+7. Negation Law :			P V ~P = t									P Λ ~P = c
+8. De Morgan's Law :		~( P Λ Q) = ~P V ~Q							~(P V Q) = ~P Λ ~Q
+9. Double Negation Law :	~(~P) = P
+10.Negation of t and c :	~t = c										~c = t
+11.Idempotent Law :			P Λ P = P									P V P = P

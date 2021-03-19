@@ -1,2 +1,14 @@
 P V Q
 p or q
+
+p = it is hot
+q = it is sunny
+
+p or q = it is hot or sunny
+p or ~q = it is either hot or not sunny
+
+P	Q	P V Q
+T	T	  T
+T	F	  T
+F	T	  T
+F	F	  F

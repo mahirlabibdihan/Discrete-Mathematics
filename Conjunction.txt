@@ -1,2 +1,15 @@
 P Λ Q
 p and q
+
+p = it is hot
+q = it is sunny
+
+p and q = it is hot and sunny 
+~p and q = it is not hot but sunny
+~p and ~q = it is neither hot not sunny
+
+P	Q	P Λ Q
+T	T	  T
+T	F	  F
+F	T	  F
+F	F	  F

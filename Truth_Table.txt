@@ -1,0 +1,5 @@
+Truth table to formula :
+1 . Formula is true if the input is one of the true rows .
+Look at the true rows and take "Or" .
+2 . Formula is true if the input is not one of the false rows .
+Look at the false rows , negate and take "And"
