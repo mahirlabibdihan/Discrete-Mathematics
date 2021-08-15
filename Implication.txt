@@ -1,7 +1,12 @@
+Conditional Statement
+
 If p then q 
 p implies q 
-p -> q
-~p or q
+p -> q ≡ ~p or q
+
+
+p -> q: If you don’t give me all your money, then I will kill you.
+~p or q: Either you give me all your money or I will kill you (or both).
 
 p : Hypothesis 
 q : Conclusion
@@ -13,16 +18,28 @@ T	F	   F
 F	T	   T
 F	F	   T
 
-if p the q .
+if p then q .
 
 q if p .
 p is a sufficient condition for q .
 As we can see that at every true p->q , q is true where p is also true .
-
+Explanation:
+In 1,3,4 row p->q is true.
+Among these in row 1,3 q is true.
+And in row 1 p is also true.
+But in row 3 p is not true.
+That's why p is sufficient for q but not necessary.
+q can be true without p being true.
 
 p only if q .
 q is a neccessary condition for p .
-As we can see that at every true p->q , p is only true , where p is also true .
+As we can see that at every true p->q , p is only true , where q is also true .
+Explanation:
+In 1,3,4 row p->q is true.
+Among these only at row 1 p is true.
+And in row 1 q is also true.
+That's why q is necessary for p.
+p can't be true without q being true.
 
 
 if(Hypothesis)
@@ -40,3 +57,19 @@ else
 {
 	T
 }
+
+
+Negation : Negation of P->Q(Implication) is not an Implication
+~(P -> Q)
+~(~P V Q)	[Equivalence]
+~~P Λ ~Q    [DeMorgan]
+P Λ ~Q
+
+
+Implication: p -> q
+Negation: p and ~q
+Contrapositive : ~q -> ~p
+Inverse: ~p -> ~q
+Converse: q -> p
+
+Inverse and converse are contrapostive

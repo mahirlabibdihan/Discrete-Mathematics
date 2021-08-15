@@ -1,0 +1,3 @@
+4 men, 3 women, total 4x3=12 couple
+
+Suppose that a procedure can be broken down into two tasks (A and B). If there are n1 ways to do the first task (A) and n2 ways to do the second task (B), we can do the whole procedure in n1 ×n2 ways!

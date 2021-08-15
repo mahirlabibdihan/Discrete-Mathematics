@@ -1,0 +1,7 @@
+Ordering is not important
+
+nCk = n!/(n-k)!k!
+
+nCk = nC(n-k)
+
+(n+1)Ck = nC(k-1) + nCk

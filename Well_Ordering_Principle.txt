@@ -1,0 +1,3 @@
+Every nonempty subset of the nonnegative integers has a least element.
+
+That means, The set of positive integers does not contain any infinite strictly decreasing sequences.

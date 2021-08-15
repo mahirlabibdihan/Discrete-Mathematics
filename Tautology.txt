@@ -1,8 +1,9 @@
 A statement that is always true .
 A single statement can't be tautology . It's always compound .
+All rows of truth table must be true
 
-p or ~p
+p or ~p ≡ t
 
 t = Tautology
-p and t = p
-p or t =t
+p and t = p		[ Identity Law ]
+p or t = t 		[ Universal bound Law ]

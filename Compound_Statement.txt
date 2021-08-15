@@ -1,0 +1,13 @@
+p = "it is hot"
+q = "it is sunny"
+
+p and q   -> It is hot and sunny
+~p and q  -> It is not hot but sunny
+~p and ~q -> It is neither hot nor sunny 
+
+
+p = "it will be cold"
+q = "it will be rainy"
+p or q    -> It will be cold or rainy
+p or ~q   -> It will either be cold or not rainy 
+~p or ~q  -> It will be not cold or not rainy 

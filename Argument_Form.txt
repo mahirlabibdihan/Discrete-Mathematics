@@ -1,3 +1,19 @@
+An argument form is a sequence of statements forms
+
+All statement forms but the final one are called assumptions or hypothesis or premises.
+
+The final statement form is called the conclusion.
+
+Argument:
+=> If typhoon, then class cancelled.
+=> Typhoon.
+=> Class cancelled.
+
+Argument form:
+=> If p then q.
+=> p
+=> q
+
 if(All assumptions true?)
 {
 	if(Conclusion true?)

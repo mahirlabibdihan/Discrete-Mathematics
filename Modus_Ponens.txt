@@ -1,0 +1,5 @@
+Modus ponens is Latin meaning “method of affirming”.
+
+If p then q			If typhoon, then class cancelled
+p					Typhoon
+q					Class cancelled

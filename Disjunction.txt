@@ -1,11 +1,11 @@
 P V Q
 p or q
 
-p = it is hot
-q = it is sunny
-
-p or q = it is hot or sunny
-p or ~q = it is either hot or not sunny
+p = "it will be cold"
+q = "it will be rainy"
+p or q    -> It will be cold or rainy
+p or ~q   -> It will either be cold or not rainy 
+~p or ~q  -> It will be not cold or not rainy // Not sure 
 
 P	Q	P V Q
 T	T	  T

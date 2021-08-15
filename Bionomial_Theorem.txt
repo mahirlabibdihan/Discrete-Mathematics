@@ -1,0 +1,7 @@
+A binomial is a sum of two terms, such as a + b.
+
+(a+b)^n = (nC0).a^n.b^0 + (nC1).a^(n-1).b^1 + ..... + (nCn).a^0.b^n
+
+(a+b)^n = (k=0Σn) nCk.a^(n-k).b^k
+
+nCk => Bionomial Coefficient

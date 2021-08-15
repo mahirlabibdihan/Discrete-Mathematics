@@ -1,10 +1,11 @@
 Contradiction is a statement that is always false .
 A single statement can't be contradiction . It's always compound .
 It's the negation of tautology .
+All rows of truth table must be false.
 
 c = ~t
-~p and p
+~p and p ≡ c
 
 c = Contradiction
-p and c = c
-p or c = p
+p and c = c     [ Universal bound Law ]
+p or c = p		[ Identity law ]

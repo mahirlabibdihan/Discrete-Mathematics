@@ -1,0 +1,7 @@
+An argument is a sequence of statements
+
+All statement but the final one are called assumptions or hypothesis .
+
+The final statement is called the conclusion.
+
+An argument is valid if its form is valid

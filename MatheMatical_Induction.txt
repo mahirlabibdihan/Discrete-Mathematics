@@ -1,0 +1,15 @@
+Simple MI:
+
+Principle of MI: To prove that P(n) is true for all positive integers n, where P(n) is a propositional function, we complete two steps:
+
+Basic Step: We verify that P(1) is true
+Inductive Step: We show that for all positive integers k if P(k) is true,then P(k+1) is also true .
+
+(P(1) Λ ∀k(P(k) -> P(k+1))) => ∀n(P(n)
+
+
+Strong MI:
+Basic Step: We verify that P(1) is true
+Inductive Step: We show that for all positive integers n If ∀m<=n P(m) is true,then P(n+1) is also true .
+
+(P(1) Λ ∀n((∀m<=n P(m)) -> P(n+1))) => ∀n(P(n)

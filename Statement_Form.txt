@@ -1,0 +1,10 @@
+Also called propositional form.
+
+Propositional vairables:
+p = "it is hot"
+q = "it is sunny"
+
+Without the definition of p and q, p Λ q is called statement or propositional form.
+
+
+The truth table for a given statement form displays the truth values that correspond to all possible combinations of truth values of its component statement variables.

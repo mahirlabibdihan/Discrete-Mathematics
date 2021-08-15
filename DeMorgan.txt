@@ -1,1 +1,10 @@
-~(p and q) = ~p or ~q
+~(p and q) ≡ ~p or ~q
+
+Statement: It is hot and sunny (p an q)
+Negation: It is not hot or not sunny (~p or ~q -> ~(p and q))
+
+P	Q	~(P Λ Q)   ~P V ~Q
+T	T	    F		  F
+T	F	    T		  T
+F	T	    T		  T
+F	F	    T		  T

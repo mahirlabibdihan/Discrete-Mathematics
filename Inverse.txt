@@ -1,7 +1,7 @@
 Implication: p -> q
-Converse: q -> p
+Inverse: ~p -> ~q
 
-Converse is not equivalent to the implication
+Inverse is not logically equivalent to the implication
 
 Truth Table :
 p	q	~p	~q	~p -> ~q

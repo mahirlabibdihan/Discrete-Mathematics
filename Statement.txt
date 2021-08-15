@@ -1,1 +1,0 @@
-If a sentence's truth value can be determined , then it's a statement .

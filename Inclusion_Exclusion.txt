@@ -1,0 +1,14 @@
+| A ∪ B | = | A | + | B | − | A ∩ B |
+
+|A ∪ B ∪ C| = |A| + |B| + |C| –|A ∩ B| –|A ∩ C| –|B ∩ C| + |A ∩ B ∩ C|
+
+|A1 ∪ A2 ∪ A3 ∪ ... ∪ An| = 
+		sum of sizes of all single sets
+		– sum of sizes of all 2-set intersections
+		+ sum of sizes of all 3-set intersections 
+		– sum of sizes of all 4-set intersections
+		....
+		+ (-1)^(n+1) x sum of sizes of intersections of all n sets
+
+
+	    

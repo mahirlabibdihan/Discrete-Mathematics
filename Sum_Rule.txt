@@ -1,0 +1,6 @@
+If sets A and B are disjoint then
+|A∪B|= |A| + |B|
+
+4 men , 3 women , total 7 people
+
+If there are n1 ways to do a task in one strategy (A) and n2 ways to do the same task in another strategy (B) where no two ways are same then irrespective of any strategy there n1 + n2 ways to do the task.

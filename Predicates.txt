@@ -1,0 +1,21 @@
+Predicates are propositions (i.e. sentences) with variables
+And becomes a statement when specific values are substituted for the variables.
+Also called propositional function.
+
+Ex:
+P(x,y) ::=  x+2=y
+
+Substituting variables with values
+x=1 and y=3; P(1,3) is true
+x=1 and y=4; P(1,4) is false
+
+
+Domain: The domain of a variable is the set of all values 
+that may be substituted in place of the variable.
+
+The truth of a predicate depends on the domain.
+
+Ex:
+P(x) ::= "x is the square of a number"
+Domain: Set of positive integers. {1,2,3,4.....}
+Truth set: Set of all positive integers which are the square of a number. {1,4,9....}

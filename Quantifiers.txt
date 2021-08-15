@@ -1,6 +1,14 @@
 Universal Quantifier :
-∀x -> for All x
+∀x => for All x
 
 Existential Quantifier :
-Ǝy -> There exists one y
+Ǝy => There exists one y
 
+Implicit Quantification: 
+In mathematics, and more generally, we often make universal and existential statements without actually explicitly using the universal or. exponential quantifiers.
+
+
+Negation:
+~∀xP(x) ≡ Ǝx~P(x)
+
+~ƎxP(x) ≡ ~∀xP(x)

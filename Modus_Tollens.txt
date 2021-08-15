@@ -1,0 +1,5 @@
+Modus tollens is Latin meaning “method of denying”.
+
+If p then q			If typhoon, then class cancelled
+~q					Class not cancelled
+~p					No typhoon

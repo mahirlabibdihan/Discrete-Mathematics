@@ -1,0 +1,16 @@
+If a sentence's truth value can be determined , then it's a statement . 
+A statement is a sentence that is either true or False.
+It is also called proposition
+
+Ex: 
+Statements:
+2+2 = 4 (True)
+3X3 = 8 (False)
+
+Non-statements:
+x+y>0
+x^2+y^2=z^2
+
+Statement
+- Atomic statement: Can't be divided into smaller statements
+- Molecular statement: Can be divided into atomic statement

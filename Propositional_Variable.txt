@@ -1,0 +1,4 @@
+When we express a statement/propositon using a notation, we call that notation Propositional/Statement variable.
+
+Statement: it is hot
+Propositional variable: p = "it is hot" 

@@ -1,0 +1,5 @@
+1. Find properties (the invariants) that are satisfied throughout the whole process (by induction).
+
+2. Show that the target do not satisfy the properties.
+
+3. Conclude that the target is not achievable

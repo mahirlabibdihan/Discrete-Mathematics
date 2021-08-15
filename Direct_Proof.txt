@@ -1,0 +1,4 @@
+Direct proofs of implication:
+To prove an implication P → Q:
+-it is enough to assume P, and from it, deduce Q.
+-i.e., you must explain why Q is true, but you get to assume P is true first.

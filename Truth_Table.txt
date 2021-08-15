@@ -1,5 +1,19 @@
 Truth table to formula :
 1 . Formula is true if the input is one of the true rows .
-Look at the true rows and take "Or" .
+Look at the true rows and take "Or" .( Efficient when true rows are less then false rows)
 2 . Formula is true if the input is not one of the false rows .
-Look at the false rows , negate and take "And"
+Look at the false rows , negate and take "And".( Efficient when false rows are less then true rows)
+3. Guess the formula and check the two truth tables. (Not that efficient)
+
+P	Q	P xor Q
+T	T	   F
+T	F	   T
+F	T	   T
+F	F	   F
+
+Find formula of p xor q.
+1. Looking at true rows: Formula will be true when the input belings to a true(2 or 3) row.
+-> (p and ~q) or (~p and q)
+
+2. Looking at false rows: Formula will be true when the input doesn't belong to any false(not 1 and not 4) rows.
+-> ~(p and q) and ~(~p and ~q)
