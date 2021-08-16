@@ -1,0 +1,2 @@
+If |A|=m, |B|=n, then the number of possible functions from A
+to B is n^m.

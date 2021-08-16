@@ -1,0 +1,18 @@
+Claim: Any integer n >= 2 is a product of primes
+Strong Induction:
+Basis step:
+2 : 2 is a prime.
+
+Inductive step:
+Assume For any integer k>=3,for all i with 2<=i<k, i is a product of primes.(i = p1.p2....pn) [ induction hypothesis ]
+
+Consider k. 
+if k is prime, we are done.
+Otherwise, k = a.b  
+As 2<= a,b <k
+By induction hypothesis, both a and b are product of primes.
+a = p1.p2.....pn
+b = q1.q2.....qm
+k = a.b = p1.p2...pn.q1.q2.....qm
+k is also a product of prime.
+So, for any integer n>=2 , n is a product of primes.(Or prime itself)

@@ -1,0 +1,84 @@
+What amount can be form from a and b?
+
+Answer: Can form any amount >= (a*b) - (a+b) + 1
+
+Proof: Let x = (a*b) - (a+b) + 1
+Strong Induction:
+Base case: x is true
+
+Inductive step: 
+Assume m for x<=m<n is true, [Induction Hypothesis]
+then prove n
+cases: 
+n = x+1 : p*a + q*b		[p,q is different for every step]
+n = x+2 : p*a + q*b
+.
+.
+.
+n = x + min(a,b) - 1 : p*a + q*b
+
+case n>= x + min(a,b):
+let, m = n - min(a,b)
+So, n = m + min(a,b)
+As x<=m<n , so by induction hypothesis m is true
+n is also true. ( n>= x )
+
+
+Example:
+What amount can be form from 5$ and 3$?
+
+Answer: Can form any amount >= (5*3) - (5+3) + 1 = 8
+ 
+Proof: 
+Strong Induction:
+Basis Step: 
+P(8)  : 5$ + 3$
+P(9)  : 3*3$
+P(10) : 2*5$
+
+Inductive step:
+Assume for k>=11,for all i with 8<=i<k, i can be formed. [Induction Hypothesis]
+
+To form k, we first need to form i = k-3 and then add 3$.
+[ k>=11 , k-3>=8 , i>=8 ]
+As 8<=i<k , by induction hypothesis we can always form k-3.
+So, k can also be formed.
+That means, we can form any amount>= 8$ with 5$ and 3$
+
+{
+	Then the statement
+	for all integers n >= 8, P(n)
+	is true.
+}
+
+{
+	We have to proof P(k) is true for all k>=11,using P(k-3)
+	In weak induction we were using k-1 to proof k.
+	But in strong induction we can use anything before k.
+	So we are using P(k-3) to proof P(k)
+
+	To form k we need to form k-3 first. We can form i = k-3 whenever 8<=i<k . Therefore as long as k-3>=8,k>=11 the inductive hypothesis holds and the proof is complete.But this means that in order for the inductive hypothesis to	hold,k must	be>=11, so the inductive step doesn’t cover the cases	where k =8,9,10. This is why those were inlcuded in basis step.	
+
+	Thus, 8,9,10 is proofed in the basis step.
+	And >10 is proofed in inductive step. As we have proofed for k. And k>10.
+	So, every amount>=8 is proofed 
+}
+					
+
+
+
+
+
+Weak Induction:
+Base case: 8$ = 1*5$ + 1*3$
+
+Inductive step:
+Assume for all k>=8, k can be formed using 5$ and 3$
+
+
+Case-1: If k can be formed using at least three 3$, then we can form k+1, by replacing three 3$ with two 5$.
+
+Case-2: If k can be formed using at least one 5$, then we can obtain k+1, by replacing the 5$ with two 3$.
+
+So, k+1 can also be formed.
+That means, we can form any amount>= 8$ with 5$ and 3$

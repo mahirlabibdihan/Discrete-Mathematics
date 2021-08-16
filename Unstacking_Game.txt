@@ -1,0 +1,30 @@
+
+Claim: Starting with n stack,final score will be n(n-1)/2
+Basis step: 
+P(0) = 0 = 0(0-1)/2 [ No stack. Score 0. ]
+P(1) = 0 = 1(1-1)/2 [ 1 stack. Can't unstack. Score 0. ]
+
+Inductive step:
+Assume for k>=2,for all i with 0<=i<k, P(i)=i(i-1)/2. [Induction Hypothesis]
+
+We have to find the score of k stack.
+So,Split k stack into a,b. [ As k>=2, it is always possible]
+So, a+b = k 
+P(a+b) = ab + P(a) + P(b)
+
+Since 0<= a,b < k, by induction hypothesis,
+P(a) = a(a-1)/2
+P(b) = b(b-1)/2
+
+P(a+b) = ab + a(a-1)/2 + b(b-1)/2
+	   = (2ab + a^2 - a + b^2 - b)/2 
+	   = (a+b)^2 - (a+b)/2
+	   = (a+b)((a+b)-1)/2
+
+P(k) = k(k-1)/2
+
+{
+	Then the statement
+	for all integers n >= 0, P(n)
+	is true.
+}

@@ -1,0 +1,3 @@
+one to one
+
+If |A|=m, |B|=n, and m<=n then the number of one-to-one functions from A to B is n^m.
