@@ -1,0 +1,25 @@
+   				   d
+			_______|_______
+		   |			   |
+		   b			   f
+	  _____|_____	  _____|
+   	 |		     |   |		   		
+     a		     c   e		   
+
+Array-based Representation: -1:empty tree
+
+NodeNum		item	 leftChild	   rightChild
+   0		  d			 1				2
+   1		  b			 3				4
+   2		  f			 5			   -1
+   3		  a			-1			   -1
+   4		  c			-1			   -1
+   5		  e			-1			   -1
+
+Linked List Based Representation: NULL: empty tree
+struct BinaryNode
+{
+	Object element;
+	BinaryNode *left;
+	BinaryNode *right;
+}

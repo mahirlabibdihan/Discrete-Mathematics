@@ -1,0 +1,58 @@
+Knight always tells the truth.
+Knave always lies.
+1. 
+A: At least one of us is a knave
+B: <nothing>
+
+Suppose A is knave, 
+Then A and B both are knight. (because what A says is false)
+A contradiction.
+
+=> So A must be knight.
+=> So B must be knave . (because what A says is true)
+
+2.
+A: The two of us are both knight
+B: A is a knave
+
+Suppose A is knight.
+Then B is knight. (because what A says is true)
+Then A is knave. (because what B says is true)
+A contradiction.
+
+=> So A must be a knave.
+
+Suppose B is knave.
+Then A is knight.
+A contradiction.
+
+=> So B must be knight.
+
+3.
+A: I am a knave or B is a knight
+B: <nothing>
+
+Suppose A is knave.
+Then A is knight and B is knave. (because what A says is false)
+A contradiction.
+
+=> So A must be knight.
+=> So B must be knight. (because what A says is true)
+
+4.
+A: I am a knight
+B: I am a knight
+
+=> No answer.
+
+5.
+A: We are both knaves
+B: <nothing>
+
+Suppose A is knight.
+Then A and B is knave.
+A contradiction.
+
+=> So A must be knave.
+Then A is knight or B is knight.(because what A says is true)
+=> As A is knave, B must be knight.

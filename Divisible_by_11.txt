@@ -1,0 +1,2 @@
+Suppose there are n digits in a number a1a2a3....an.
+If a1-a2+a3-a4....+an is divisible by 11, then the number itself is divisible by 11.

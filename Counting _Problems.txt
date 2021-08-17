@@ -1,0 +1,51 @@
+#1 how many 4 digit numbers divisible by 11?
+=> Smallest 4 digit number divisible by 11 is 1001.
+   Largest 4 digit number divisible by 11 is 9999.
+   Total 4 digit numbers divisible by 11 = (9999-1001+1)/11 = 819
+-----------------------------------------------------------------------------------
+#2 Divisibility by 11.
+=> Suppose there are n digits in a number a1a2a3....an.
+If a1-a2+a3-a4....+an is divisible by 11, then the number itself is divisible by 11.
+--------------------------------------------------------------------------------------
+#3 Proof Any 4 digit palindrome is divisible by 11.
+=> Suppose a 4 digit pallindrome is xyyx. 
+   Then x-y+y-x=0, which is divisible by 11. 
+--------------------------------------------------------------------------------------
+#4 How many 4 digit pallindromes?(Leading zero not allowed)
+=> We have nine choices for the first digit (0 won't do) and ten choices for the second. The first and second digits being set, the third and fourth are determined. Thus there are 9X10 = 10 numbers
+--------------------------------------------------------------------
+(Nothing is said explicitly about zero)
+=>  We have ten choices for the first digit and ten choices for the second. The first and second digits being set, the third and fourth are determined. Thus there are 10X10 = 100 numbers
+
+--------------------------------------------------------------------------------------
+#5 how many 4 digit numbers divisible by 11 are not palindromes?
+=> Any 4 digit palindrome is divisible by 11. (From 3)
+=> 4 digit numbers divisible by 11 that are not palindromes
+	= 4 digit numbers divisible by 11 - 4 digit pallindromes
+
+=> 4 digit pallindromes = 10x10 = 100	(From 4)
+=> 4 digit numbers divisible by 11 = (9999-1001+1)/11 = 819 (From 1)
+
+=> 4 digit numbers divisible by 11 that are not palindromes
+	= 819 - 100
+	= 719
+--------------------------------------------------------------------------------------
+#6 How many # 4-digit numbers with at least one 7? ( Leading zero not allowed)
+=> Total 4 digit numbers = 9x10x10x10 = 9000
+   4 digit numbers without 7 = 8x9x9x9 = 5832
+
+=> 4-digit numbers with at least one 7 = 9000 - 5832 = 3168
+--------------------------------------------------------------------------------------
+(Nothing is said explicitly about zero)
+=> Total 4 digit numbers = 10x10x10x10 = 10000
+   4 digit numbers without 7 = 9x9x9x9 = 6561
+
+=> 4-digit numbers with at least one 7 = 10000 - 6561 = 3439
+--------------------------------------------------------------------------------------
+#7 How common are non-defective dollars?
+=> A dollar is defective if some digit appears more than once in the 6-digit serial number
+=> There are 10p6=151200 non-defective serial numbers.
+=> Total 10^6 = 1000000 serial numbers.
+=> 151200/1000000 = 0.1512
+=> 15.12% dollars are non-defective
+-------------------------------------------------------------------------------------

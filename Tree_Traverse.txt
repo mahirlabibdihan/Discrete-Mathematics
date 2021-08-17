@@ -1,0 +1,75 @@
+Build binary tree of infix expression ((2+3)*(7-6*(8/4)+3))*2*(18/3).
+
+((2+3)*(7-6*(8/4)+3))*2*(18/3)
+= ((2+3)*((7-(6*(8/4)))+3))*(2*(18/3))
+
+					   *
+			___________|___________
+		   |				 	   |
+		   *				 	   *
+		___|____________	    ___|_______
+	   |		        |	   |		   |		
+	   +			 	+      2		   /
+	___|___	   	  ______|___			___|___
+   |	   |  	 |			|		   |	   |
+   2	   3	 -			3		   18	   3
+   			  ___|______
+   			 |			|
+   			 7			*
+   			 		 ___|______
+   			 		|		   |
+   			 		6		   /
+   			 				___|___
+   			 			   |	   |
+   			 			   8	   4
+
+Infix: 2 + 3 * 7 - 6 * 8 / 4 + 3 * 2 * 18 / 3 (Infix is what we read)
+Prefix: * * + 2 3 + - 7 * 6 / 8 4 3 * 2 / 18 3
+Postfix: 2 3 + 7 6 8 4 / * - 3 + 2 18 3 / * * 
+Level-order: * * * + + 2 / 2 3 - 3 18 3 7 * 6 / 8 4
+
+
+Algorithm:
+pre-order(Tree t){
+	if(t is not empty){
+		print t.getItem();
+		pre-order(t.getLeftChild());
+		pre-order(t.getRightChild());
+	}
+}
+
+in-order(Tree t){
+	if(t is not empty){
+		in-order(t.getLeftChild());
+		print t.getItem();
+		in-order(t.getRightChild());
+	}
+}
+
+post-order(Tree t){
+	if(t is not empty){
+		post-order(t.getLeftChild());
+		post-order(t.getRightChild());
+		print t.getItem();		
+	}
+}
+
+level-order(Tree t){
+	Queue Q = new Queue();
+	Tree n;
+	Q.enqueue(t);// insert pointer t into Q
+	while (! Q.empty()){
+	n = Q.dequeue(); //remove next node from the front of Q
+	if (!n.isEmpty()){
+		print n.getItem();// you can do other things
+		Q.enqueue(n.getLeft()); // enqueueleft subtreeon rear of Q
+		Q.enqueue(n.getRight()); // enqueueright subtreeon rear of Q
+	}
+}
+
+struct TreeNode
+{
+	Object element
+	TreeNode *firstChild
+	TreeNode *nextsibling
+}

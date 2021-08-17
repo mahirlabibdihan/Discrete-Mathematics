@@ -1,0 +1,16 @@
+An undirected graph is a tree if and only if there is a unique simple path between any two of its vertices.
+Simple path: No repeated edge or vertice
+Full m-ary tree:
+internal vertice = i
+total vertice = m*i+1
+
+height = h
+leaves = l
+l  = m^h (Full m-ary tree)
+logm(l) = h 
+log2(l) = h (Full binary tree) 
+
+l <= m^h (m-ary tree)
+logm(l) <= h 
+
+l <= 2^h (binary tree)
