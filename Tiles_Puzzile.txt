@@ -1,0 +1,15 @@
+- For any 2n x 2n  puzzle, there is a tiling with Bill in the middle
+Proof: 
+Induction:
+Base case:
+n=0 : No tiles needed. Only Bill.
+Inductive Step:
+Assume, for 2^nx2^n its true.
+
+
+- For any 2n x 2n  plaza, there is a tiling with Bill anywhere.
+Base case:
+n=0 : No tiles needed. Only Bill.
+
+Induction step:
+Assume we can get Bill anywhere in 2n x 2n.

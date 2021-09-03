@@ -1,14 +1,14 @@
 Conditional Statement
 
-If p then q 
-p implies q 
+If p then q
+p implies q
 p -> q ≡ ~p or q
 
 
 p -> q: If you don’t give me all your money, then I will kill you.
 ~p or q: Either you give me all your money or I will kill you (or both).
 
-p : Hypothesis 
+p : Hypothesis
 q : Conclusion
 
 Truth Table :
@@ -66,10 +66,10 @@ Negation : Negation of P->Q(Implication) is not an Implication
 P Λ ~Q
 
 
-Implication: p -> q
-Negation: p and ~q
-Contrapositive : ~q -> ~p
-Inverse: ~p -> ~q
-Converse: q -> p
+Implication: 			p -> q		=> ~p or q
+Negation: 				p and ~q
+Contrapositive : 	~q -> ~p	=> q or ~p 
+Inverse: 					~p -> ~q
+Converse: 				q -> p
 
 Inverse and converse are contrapostive

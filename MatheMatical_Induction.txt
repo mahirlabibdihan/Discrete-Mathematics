@@ -4,7 +4,7 @@ Principle of MI: Let P (n) be a property that is defined for integers n, and let
 Suppose the following two statements are true:
 
 Basic Step: P(a) is true ( Usually 1 )
-Inductive Step: For all integers k > a, if P(k) is true then P(k + 1) is true.
+Inductive Step: For all integers k >= a, if P(k) is true then P(k + 1) is true.
 
 Then the statement
 for all integers n >= a, P(n)

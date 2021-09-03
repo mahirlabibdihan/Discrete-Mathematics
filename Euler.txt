@@ -1,0 +1,2 @@
+1. Edge visit = 1
+2. Vertex visit >= 1

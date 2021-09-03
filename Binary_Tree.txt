@@ -23,3 +23,12 @@ struct BinaryNode
 	BinaryNode *left;
 	BinaryNode *right;
 }
+
+
+Binary Tree:
+Leaves, l <= 2^h
+Nodes, n <= 2^(h+1)-1.
+
+Complete Binary tree:
+Leaves, l = 2^h
+Nodes, n <= 2^(h+1)-1.

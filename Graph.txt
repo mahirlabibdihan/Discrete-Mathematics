@@ -1,0 +1,58 @@
+Simple graph: Undirected,Unweighted,no graph loops,no multile edges
+Maximum degree: n-1 (n= # of veritces)
+
+Cycle:
+C4: 4 vertices
+
+Wheel:
+W4: 5 vertices(4 in cycle,1 in middle)
+
+		 9
+	a---------b
+	|		  |
+   2|		  |3
+	|		  |
+	c---------d
+		 5
+
+Adjacency Matrix for Undirected graph: 
+Unweighted:
+
+		1	2	3	4
+
+		a	b	c	d
+
+1   a 	0	1	1	0
+
+2   b	1	0	0	1
+
+3   c	1	0	0	1
+	
+4   d	0	1	1	0
+
+Weighted:
+		1	2	3	4
+
+		a	b	c	d
+
+1   a 	∞	9	2	∞
+
+2   b	9	∞	∞	3
+
+3   c	2	∞	∞	5
+	
+4   d	∞	3	5	∞
+
+
+Adjacency List for Undirected graph: 
+Unweighted:
+1	a -> b -> c
+2	b -> a -> d
+3	c -> a -> d
+4	d -> b -> c	
+
+Weighted:
+1	a -> b(9) -> c(2)
+2	b -> a(9) -> d(3)
+3	c -> a(2) -> d(5)
+4	d -> b(3) -> c(5)	

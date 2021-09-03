@@ -1,0 +1,23 @@
+Chromtic number: Min number of colors needed for a graph.
+
+Graph with no edges: 1 color.
+
+Simple Cycle:
+Odd Cycle: 3 color.
+Even Cycle: 2 color. [Bipartite]
+
+Complete Graph: n color(n=number of vertices)
+[If there is a complete subgraph of size k,
+then we need at least k colors]
+
+Wheel Graph:
+Odd Cycle: 4 color.
+Even Cycle: 3 color.
+
+Bipartite Graph: 2 color.
+
+Map coloring:
+We can not draw a map consisting 5 countrie such that any two of them are adjacent.
+We can at most draw 4 countries with any two adjacent.
+So we need at most 4 colors to draw a map.
+So every map is 4-colourable.

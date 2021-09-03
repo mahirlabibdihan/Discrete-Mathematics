@@ -1,0 +1,6 @@
+If G is planargraph,
+v = number of vertices
+e= number of edges
+f= number of faces, ***including the exterior face***
+(v=7, e= 13, f=8)
+Then: f = e –v + 2

@@ -30,7 +30,7 @@ If a1-a2+a3-a4....+an is divisible by 11, then the number itself is divisible by
 	= 819 - 100
 	= 719
 --------------------------------------------------------------------------------------
-#6 How many # 4-digit numbers with at least one 7? ( Leading zero not allowed)
+#6 How many 4-digit numbers with at least one 7? ( Leading zero not allowed)
 => Total 4 digit numbers = 9x10x10x10 = 9000
    4 digit numbers without 7 = 8x9x9x9 = 5832
 

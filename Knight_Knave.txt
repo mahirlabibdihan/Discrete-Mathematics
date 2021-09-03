@@ -56,3 +56,46 @@ A contradiction.
 => So A must be knave.
 Then A is knight or B is knight.(because what A says is true)
 => As A is knave, B must be knight.
+
+
+
+
+
+// Term
+Suppose she-knight.
+Then Pc1-not connected -------i
+Then J-Knight
+Then Pc2-Connected and Pc3-not Connected -------ii
+
+Suppose K-knight
+Then Pc2-not connected or Pc1-connected
+Then Pc1-connected -------i
+She contradicts
+
+Suppose K-knave
+Then Pc2-connected and Pc1-not connected
+Then Pc3-Connected -------ii
+She contradicts
+
+So She-knave
+Pc1-connected
+J-Knave
+Pc2-Not Connected or Pc3-Connected
+
+Assume k-knave
+Pc2-connected and Pc1-not connected
+She contradicts.
+
+So K-knight
+Pc2-not connected or Pc1-connected
+Pc2-connected or not connected
+Pc3-not Connected
+Pc2-not connected
+
+She-knave
+J-Knave
+K-knight
+
+Pc1-connected
+Pc2-not connected
+Pc3-not Connected

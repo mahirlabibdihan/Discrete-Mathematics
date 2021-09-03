@@ -1,0 +1,3 @@
+Isomorphism of graph:
+1. Same number of vertices
+2. Same number of edges

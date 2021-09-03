@@ -6,11 +6,23 @@ total vertice = m*i+1
 
 height = h
 leaves = l
-l  = m^h (Full m-ary tree)
-logm(l) = h 
-log2(l) = h (Full binary tree) 
+l  = m^h (Complete m-ary tree)
+logm(l) = h  (Complete m-ary tree / Full and Balanced)
+log2(l) = h (Complete binary tree) 
 
 l <= m^h (m-ary tree)
 logm(l) <= h 
 
 l <= 2^h (binary tree)
+l = 2^h (Complete binary tree) 
+
+Full m-ary tree: Every internal vertex has exactly m children.
+
+m-ary tree: Every internal vertex has no more than m children.
+
+Completer m-ary tree: All the levels are completely filled. 
+
+Balanced m-ary tree: A rooted m-ary tree of height h is balanced if all leaves are at levels h or h − 1.
+
+leaves, l  = m^h
+nodes, m^0 + m^1 + …. m^h = (m^(h+1)-1)/(m-1).

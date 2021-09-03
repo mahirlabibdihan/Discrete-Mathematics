@@ -1,0 +1,53 @@
+Properties:
+Commutative: 	a*b = b*a
+Associativity: 	(a*b)*c = a*(b*c)
+Identity: 		a*e = e*a = a [e identity]
+Inverse:		a*b = b*a = e [b is inverse of a]
+
+Semi Group:
+1. Closed
+2. Associative
+
+Monoid:
+1. Closed
+2. Associative
+3. Identity Exists
+
+Group:
+1. Closed
+2. Associative
+3. Identity Exists
+4. Inverse Exists
+
+Abelian Group:
+1. Closed
+2. Associative
+3. Commutative
+4. Identity Exists
+5. Inverse Exists
+
+
+Ring:(Two operation)
+1st Operation:
+1. Closed
+2. Associative
+3. Identity Exists
+4. Inverse Exists
+
+2nd Operation:
+1. Closed
+2. Associative
+
+Commutative Ring
+1st Operation:
+1. Closed
+2. Associative
+3. Commutative
+4. Identity Exists
+5. Inverse Exists
+
+2nd Operation:
+1. Closed
+2. Associative
+3. Commutative
+
