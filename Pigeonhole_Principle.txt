@@ -6,23 +6,37 @@ Generalized Pigeonhole Principle:
 If n pigeons fly into m pigeonholes and, for some positive integer k, n > km, then at least one pigeonhole contains k + 1
 or more pigeons.
 
+
 If  N(x) pigeons are placed into N(y) pigeon holes, then there is at least one hole containing at least ceil(N(x)/N(y)) pigeons
 
-Contrapositive form:
+Contrapositive form: [If the total number of pigeons are at least k.m, then at least one pigeonhole contains at least k + 1 pigeons.] 
 If pigeonholes have at most k pigeons, then the total number of pigeons are at most k.m pigeons. (m=number for pigeonholes)
 
 
--A player plays 30 days and at most 45 sets of tennis and at least 1 play per day. Prove there is a consecutive span of days during which exactly 14 sets are played.
+#1 - A player plays 30 days and at most 45 sets of tennis and at least 1 play per day. 
+Prove there is a consecutive span of days during which exactly 14 sets are played.
 
 Let, sj be the number of games player till day j.
 1 <=s1   <s2   <.....<sj   <....<s30   <=45   -----> 30days
 lets add 14 with everyday. 
 15<=s1+14<s2+14<.....<si+14<....<s30+14<=59   -----> 30days
 
-So there are 30+30=60 value of s between 1-59. So two of them must have the same value. (Pigeons=60, Pigeonhole=59)
-sj = si+14
-sj - si =14
+So there are 30+30=60 value of s between 1-59. So two of them must have the same value. (Pigeons=60, Pigeonhole=59)[Pigeonhole principle]
+sj = si + 14
+sj - si = 14
 From i+1 to jth day the team played 14 games
 
 1...........i..............j..............30
 1<=........si.............sj............<=45
+
+#2 - A player plays 30 days and at most 45 sets of tennis and at least 1 play per day. 
+There is a consecutive span of days during which exactly a number of sets are played. 
+Find the exact number of sets played for a consecutive days.
+
+1 <=s1   <s2   <.....<sj   <....<s30   <=45   -----> 30days
+lets add k with everyday. 
+1+k<=s1+k<s2+k<.....<si+k<....<s30+k<=45+k   -----> 30days
+So there are 30+30=60 value of s between 1 to 45+k. And two of them must have the same value.(Pigeons=60, Pigeonhole=45+k)
+So, 45+k < 60 [ by Pigeonhole Principle.]
+45+k = 59 [45+k can be maximum 59]
+k = 14

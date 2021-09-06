@@ -12,7 +12,7 @@ F	T	   T
 F	F	   F
 
 Find formula of p xor q.
-1. Looking at true rows: Formula will be true when the input belings to a true(2 or 3) row.
+1. Looking at true rows: Formula will be true when the input belongs to a true(2 or 3) row.
 -> (p and ~q) or (~p and q)
 
 2. Looking at false rows: Formula will be true when the input doesn't belong to any false(not 1 and not 4) rows.

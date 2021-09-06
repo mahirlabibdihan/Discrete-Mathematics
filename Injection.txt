@@ -1,3 +1,8 @@
 one to one
 
+F:X->Y is one to one <=> ∀xϵX , ∀y = Y : x != y -> f(x)!=f(y)
+						 ∀xϵX , ∀y = Y : f(x)=f(y) -> x=y
+Every element of the function's codomain is the image of at most one element of its domain.[
+
 If |A|=m, |B|=n, and m<=n then the number of one-to-one functions from A to B is n^m.
+

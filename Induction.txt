@@ -1,0 +1,25 @@
+Simple MI:
+
+Principle of MI: Let P (n) be a property that is defined for integers n, and let a be a fixed integer.
+Suppose the following two statements are true:
+
+Basic Step: P(a) is true ( Usually 1 )
+Inductive Step: For all integers k >= a, if P(k) is true then P(k + 1) is true.
+
+Then the statement
+for all integers n >= a, P(n)
+is true.
+
+(P(a) Λ ∀k>=a(P(k) -> P(k+1))) => ∀n>=a P(n)
+
+
+Strong MI:Let P(n) be a property that is defined for integers n, and let a and b be fixed integers with a < b. Suppose the following two statements are true:
+
+Basic Step: P(a), P(a + 1), . . ., and P(b) are all true.
+Inductive Step: For any integer k > b, if P(i) is true for all integers i with a <= i < k, then P(k) is true.
+
+Then the statement
+for all integers n >= a, P(n)
+is true.
+
+(a<=∀j<=b P(j)) Λ ∀k>b((a<=∀i<k P(i)) -> P(k))) => ∀n>=a (P(n)

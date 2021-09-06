@@ -1,2 +1,8 @@
 If |A|=m, |B|=n, then the number of possible functions from A
 to B is n^m.
+
+Function: 
+One and Only image for every pre-image
+
+A image can have multiple pre-images.
+But a pre-image can't have multiple images.
